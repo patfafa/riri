@@ -1,0 +1,65 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #fff799;
+    color: #000;
+    margin: 0;
+    padding: 20px;
+    font-size: 36px;
+    line-height: 1.2; 
+    font-weight: normal; 
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 36px; 
+    font-weight: 900; 
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+p {
+    margin-bottom: 30px;
+}
+
+.bold {
+    font-weight: 700; 
+}
+
+.company-list {
+    font-family: 'Courier New', monospace;
+    letter-spacing: -1px;
+}
+
+.season-title {
+    font-family: 'Times New Roman', serif;
+    font-weight: 700; 
+    font-style: italic;
+}
+
+.startup-name, .rulebreakers, .damn-nam, .infinite-thailand, .chinese-name {
+    display: inline-block;
+    transform: skew(-5deg);
+    transition: transform 0.3s ease;
+}
+
+.startup-name:hover, .rulebreakers:hover, .damn-nam:hover, .infinite-thailand:hover, .chinese-name:hover {
+    transform: skew(0deg) scale(1.05);
+}
+
+@media (max-width: 768px) {
+    body, h1 { 
+        font-size: 24px;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+}
