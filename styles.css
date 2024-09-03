@@ -103,7 +103,7 @@ a:hover {
 
 @media (max-width: 768px) {
     body, h1, p, .company-list, .startup-name, a {
-        font-size: 36px; /* Maintain the same large size on mobile */
+        font-size: 36px; 
     }
 }
 
