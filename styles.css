@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;700&family=Comic+Sans+MS&family=DIN+Condensed:wght@400;700&family=Chicle&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DIN+Condensed:wght@400;700&display=swap');
 
-body, h1, p, .company-list, .startup-name {
+body, h1, p, .company-list, .startup-name, a {
     font-size: 36px;
     line-height: 1.2;
     font-weight: normal;
@@ -102,8 +102,8 @@ a:hover {
 }
 
 @media (max-width: 768px) {
-    .rulebreakers {
-        font-family: inherit; 
+    body, h1, p, .company-list, .startup-name, a {
+        font-size: 36px; /* Maintain the same large size on mobile */
     }
 }
 
