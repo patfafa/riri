@@ -28,7 +28,6 @@ p {
     font-style: italic;
 }
 
-/* RiRi Richezza specific styles */
 .riri-richezza-page {
     font-family: 'Bodoni Moda', serif;
 }
@@ -38,7 +37,6 @@ p {
     font-style: italic;
 }
 
-/* Other startup styles */
 .rulebreakers {
     font-style: italic;
 }
@@ -87,12 +85,11 @@ a:hover {
 
 .startup-name {
     display: inline-block;
-    transition: all 0.3s ease;
+    transition: transform 0.3s ease;
 }
 
 .startup-name:hover {
-    font-style: italic;
-    transform: skew(-5deg) scale(1.05);
+    transform: scale(2.0);
 }
 
 .riri-richezza-page, .riri-richezza {
