@@ -1,15 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;700&family=Comic+Sans+MS&family=DIN+Condensed:wght@400;700&family=Chicle&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DIN+Condensed:wght@400;700&display=swap');
 
+body, h1, p, .company-list, .startup-name {
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: Helvetica, Arial, sans-serif;
     background-color: #fff799;
     color: #000;
-    margin: 0;
     padding: 20px;
-    font-size: 48px; /* Increased from 36px */
-    line-height: 1.2;
-    text-shadow: none; /* Remove white shadow */
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.season-title {
+    font-style: italic;
+}
+
+/* RiRi Richezza specific styles */
+.riri-richezza-page {
+    font-family: 'Bodoni Moda', serif;
+}
+
+.riri-richezza {
+    font-family: 'Bodoni Moda', serif;
+    font-style: italic;
+}
+
+/* Other startup styles */
+.rulebreakers {
+    font-style: italic;
+}
+
+.damn-nam {
+    font-weight: bold;
+}
+
+.infinite-thailand {
+    font-style: italic;
+}
+
+.chinese-name {
+    font-family: 'SimSun', 'STSong', 'Song', serif;
 }
 
 .container {
@@ -21,28 +64,37 @@ body {
 }
 
 h1 {
-    font-size: 36px;
     font-weight: 900;
     margin-bottom: 30px;
-    letter-spacing: 2px;
     text-transform: uppercase;
+    text-shadow: none;
+}
+
+p, a {
+    margin-bottom: 30px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    text-decoration: underline;
     text-shadow: none; 
 }
 
-p {
-    margin-bottom: 30px;
+.startup-name {
+    font-weight: bold;
 }
 
-.bold {
-    font-weight: 700;
+.riri-richezza-page, .riri-richezza {
+    font-family: 'Bodoni Moda', serif;
 }
 
 .offices-for-utopia {
     font-family: 'Times New Roman', serif;
-}
-
-.startup-name {
-    font-family: 'Bodoni Moda', serif;
 }
 
 .rulebreakers {
@@ -51,15 +103,15 @@ p {
 
 @media (max-width: 768px) {
     .rulebreakers {
-        font-family: inherit; /* Use the same font as the body */
+        font-family: inherit; 
     }
 }
 
 .damn-nam {
     font-family: 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
-    letter-spacing: -1px; /* Adjust this value to make it more condensed if needed */
-    text-transform: uppercase; /* Optional: if you want it all caps */
+    letter-spacing: -1px; 
+    text-transform: uppercase; 
 }
 
 .infinite-thailand {
@@ -74,7 +126,7 @@ p {
     display: inline-block;
     transform: skew(-5deg);
     transition: transform 0.3s ease;
-    text-shadow: none; /* Remove white shadow */
+    text-shadow: none; 
 }
 
 .startup-name:hover, .rulebreakers:hover, .damn-nam:hover, .infinite-thailand:hover, .chinese-name:hover {
@@ -83,22 +135,15 @@ p {
 
 @media (max-width: 768px) {
     body {
-        font-size: 36px; /* Increased from 24px */
+        font-size: 36px; 
         padding: 10px;
+    }
+
+    h1 {
+        font-size: 54px; 
     }
 
     .container {
         max-width: 100%;
     }
-}
-
-a {
-    color: #000;
-    text-decoration: none;
-    transition: all 0.3s ease;
-}
-
-a:hover {
-    text-decoration: underline;
-    text-shadow: none; /* Remove white shadow */
 }
