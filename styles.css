@@ -48,7 +48,7 @@ p {
 }
 
 .riri-richezza-page .logo {
-    width: 50px;
+    width: 70px; /* Increased from 50px */
     height: auto;
     margin-left: 10px;
 }
@@ -58,7 +58,7 @@ p {
 }
 
 .riri-richezza-page .decoration {
-    width: 80px;
+    width: 120px; /* Increased from 80px */
     height: auto;
     vertical-align: middle;
 }
@@ -72,7 +72,7 @@ p {
 }
 
 .riri-richezza-page .cherub {
-    width: 100px;
+    width: 150px; /* Increased from 100px */
     height: auto;
     position: absolute;
     bottom: 20px;
@@ -84,13 +84,16 @@ p {
         font-size: 2rem;
     }
 
-    .riri-richezza-page .logo,
-    .riri-richezza-page .decoration,
-    .riri-richezza-page .cherub {
-        width: 40px;
+    .riri-richezza-page .logo {
+        width: 50px; /* Adjusted for mobile */
+    }
+
+    .riri-richezza-page .decoration {
+        width: 80px; /* Adjusted for mobile */
     }
 
     .riri-richezza-page .cherub {
+        width: 100px; /* Adjusted for mobile */
         bottom: 10px;
         right: 10px;
     }
