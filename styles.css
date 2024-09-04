@@ -30,6 +30,70 @@ p {
 
 .riri-richezza-page {
     font-family: 'Bodoni Moda', serif;
+    background-color: #ffffc8;
+}
+
+.riri-richezza-page .container {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    background-color: transparent;
+}
+
+.riri-richezza-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.riri-richezza-page .logo {
+    width: 50px;
+    height: auto;
+    margin-left: 10px;
+}
+
+.riri-richezza-page p {
+    margin-bottom: 15px;
+}
+
+.riri-richezza-page .decoration {
+    width: 80px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.riri-richezza-page .back-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.riri-richezza-page .cherub {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+@media (max-width: 600px) {
+    .riri-richezza-page h1 {
+        font-size: 2rem;
+    }
+
+    .riri-richezza-page .logo,
+    .riri-richezza-page .decoration,
+    .riri-richezza-page .cherub {
+        width: 40px;
+    }
+
+    .riri-richezza-page .cherub {
+        bottom: 10px;
+        right: 10px;
+    }
 }
 
 .riri-richezza {
